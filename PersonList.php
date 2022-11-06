@@ -12,6 +12,7 @@
 /**
  * Проверяем был ли обьявлен класс Person
  */
+
 try {
     if (!class_exists('Person')) {
         throw new Exception('Класс Person не был обьявлен!');
@@ -69,6 +70,7 @@ class PersonList
         }
         
     }
+    
     /**
     * Метод getArray получает массив экземпляров класса Person из массива $list
     * полученного в конструкторе.
