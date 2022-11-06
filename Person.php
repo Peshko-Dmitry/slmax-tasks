@@ -74,7 +74,7 @@ class Person
             if (preg_match($patternLastName, $lastName)) {
                 $this->lastName = $lastName;
             } else {
-                print 'Фамилия должно состоять только из букв, пробела или знака дефиc!'; 
+                print 'Фамилия должна состоять только из букв, пробела или знака дефиc!'; 
             }
 
             if (preg_match($patternDate, $dateOfBirth)) {
