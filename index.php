@@ -8,8 +8,8 @@
 *
 * Утилита для работы с базой данных 
 */
-    require 'Person.php';
-    require 'PersonList.php';
+require 'Person.php';
+require 'PersonList.php';
 
 try {
     $db = new PDO('mysql:host=localhost;dbname=slmax', 'root', 'root');
